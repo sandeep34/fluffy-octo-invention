@@ -14,24 +14,44 @@ struct GuessTheFlag: View {
     var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"]
     var correctAnswer = Int.random(in: 0...2)
     
+    
+    init() {
+        UITableView.appearance().separatorStyle = .none
+    }
     var body: some View {
         
         Form {
-        VStack {
-            Text("Tap the flag of")
-            Text(countries[correctAnswer])
-
-        }
+//        VStack {
+//            Text("Tap the flag of")
+//            Text(countries[correctAnswer])
+//
+//        }
         
-        ForEach(0 ..< 3) { number in
-            Button(action: {
-                print("Tap here")
-              }) {
-                  Image(self.countries[number])
-                      .renderingMode(.original)
-              }
+//        ForEach(0 ..< 11) { number in
+//            Button(action: {
+//                print("Tap here")
+//              }) {
+//                  Image(self.countries[number])
+//                      .renderingMode(.original)
+//              }
+//
+//        }
+            ForEach(0 ..< 10) { number in
+                HStack {
+                    Text("Usage Date")
+                    Text("12/04/2020").frame(maxWidth: .infinity, alignment: .trailing)
+                }
+
+                HStack {
+                    Text("Usage Amount")
+                    Text("$129").frame(maxWidth: .infinity, alignment: .trailing)
+                }
+                VStack(alignment: .center, spacing: 10) {
+                   Divider()
+                }
+            }
             
-        }
+            
       }
     }
 }

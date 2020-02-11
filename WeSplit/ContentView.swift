@@ -8,7 +8,6 @@
 
 import SwiftUI
 
-
 struct ContentView: View {
 
     @State private var checkAmount = ""
@@ -16,7 +15,7 @@ struct ContentView: View {
     @State private var tipprecentage = [10, 15, 20, 25, 0]
     var totalPerPerson: Double {
        let peopleCount = Double(numberOfPeople + 2)
-        let tipSelection = 15.0
+       let tipSelection = 15.0
        let orderAmount = Double(checkAmount) ?? 0
 
        let tipValue = orderAmount / 100 * tipSelection
@@ -29,17 +28,19 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
 
-            
-            
-            
-            VStack {
+            VStack(alignment: .center, spacing: 20) {
                 NavigationLink(destination: GuessTheFlag()) {
                     Text("Show Detail View")
-                    }.navigationBarTitle("Navigation")
+                }.navigationBarTitle("Navigation")
                 
                 NavigationLink(destination: WebViewControl()) {
                     Text("Project 4")
                 }.navigationBarTitle("Navigation")
+                
+                NavigationLink(destination: ViewsAndModifiers()) {
+                    Text("ViewsAndModifiers")
+                }.navigationBarTitle("ViewsAndModifiers.")
+                
             }
             
 //            Form {
@@ -65,7 +66,6 @@ struct ContentView: View {
 //                    Text("$\(totalPerPerson)")
 //                }
 //            }.navigationBarTitle("We Split")
-            
             
         }
     }

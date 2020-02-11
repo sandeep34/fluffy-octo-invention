@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2749352723DFF30400004ED1 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2749352623DFF30400004ED1 /* WebView.swift */; };
 		275E3E6423D234D1004D5DAE /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275E3E6323D234D1004D5DAE /* GuessTheFlag.swift */; };
+		27C5C52923F28340009AEEFB /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C5C52823F28340009AEEFB /* ViewsAndModifiers.swift */; };
 		27F7436A23CCF80000254BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F7436923CCF80000254BCC /* AppDelegate.swift */; };
 		27F7436C23CCF80000254BCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F7436B23CCF80000254BCC /* SceneDelegate.swift */; };
 		27F7436E23CCF80000254BCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F7436D23CCF80000254BCC /* ContentView.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		2749352623DFF30400004ED1 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		275E3E6323D234D1004D5DAE /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
+		27C5C52823F28340009AEEFB /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
 		27F7436623CCF80000254BCC /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F7436923CCF80000254BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27F7436B23CCF80000254BCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				27F7437723CCF80200254BCC /* Info.plist */,
 				27F7437123CCF80200254BCC /* Preview Content */,
 				275E3E6323D234D1004D5DAE /* GuessTheFlag.swift */,
+				27C5C52823F28340009AEEFB /* ViewsAndModifiers.swift */,
 				2749352623DFF30400004ED1 /* WebView.swift */,
 			);
 			path = WeSplit;
@@ -276,6 +279,7 @@
 				27F7436A23CCF80000254BCC /* AppDelegate.swift in Sources */,
 				2749352723DFF30400004ED1 /* WebView.swift in Sources */,
 				275E3E6423D234D1004D5DAE /* GuessTheFlag.swift in Sources */,
+				27C5C52923F28340009AEEFB /* ViewsAndModifiers.swift in Sources */,
 				27F7436C23CCF80000254BCC /* SceneDelegate.swift in Sources */,
 				27F7436E23CCF80000254BCC /* ContentView.swift in Sources */,
 			);
